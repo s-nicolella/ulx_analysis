@@ -469,7 +469,7 @@ for galaxy in unique_values:
         print(f"Total number of observations for source {source_id}: {len(obs_nums)}")
 
 
-        # temporary fix until i figure out how to not blow up my computer with files
+        # so i don't blow up my computer with files
         # sorry macbook i love you
         unique_ids = np.unique(target_ids)
         if len(unique_ids) >= 10:
