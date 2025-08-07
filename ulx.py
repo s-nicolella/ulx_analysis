@@ -463,8 +463,6 @@ for galaxy in unique_values:
         obs_src_ra = obs_df['s_ra']
         print(len(obs_df))
 
-
-        # Optional: update your other variables based on filtered dataframe
         target_ids = obs_df['target_id'].to_numpy()
         obs_nums = obs_df['obs_id'].to_numpy()
 
